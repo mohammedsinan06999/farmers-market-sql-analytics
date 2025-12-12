@@ -1,4 +1,4 @@
-# 🌾 Farmers Market SQL Analytics
+#  Farmers Market SQL Analytics
 
 A comprehensive SQL project analyzing a Farmer’s Market relational database.  
 This repository demonstrates strong SQL fundamentals along with intermediate and advanced querying techniques such as joins, aggregations, grouping, filtering, and subqueries.
