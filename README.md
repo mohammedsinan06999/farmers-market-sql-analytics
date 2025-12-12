@@ -1,87 +1,89 @@
-# Farmers Market SQL Analytics
+# 🌾 Farmers Market SQL Analytics
 
-This repository contains SQL scripts that explore, analyze, and derive insights from a Farmer’s Market relational database. The project showcases SQL fundamentals and intermediate-to-advanced concepts such as joins, aggregations, filtering, grouping, and subqueries.
-
----
-
-## 📂 Project Files
-
-### 1️⃣ farmers_data.sql
-
-Contains 20 SQL questions covering:
-
-- Basic SELECT queries
-- Concatenation & string operations
-- Filtering and range conditions
-- Aggregations (COUNT, SUM)
-- Sorting & grouping
-- Subqueries
-- Conditional logic using CASE
-- Date filtering
-- Joining tables for enriched insights
-
-### 2️⃣ joins Questions(farmers_data).sql
-
-Focuses specifically on JOIN operations:
-
-- LEFT JOIN, RIGHT JOIN
-- Joining multiple tables
-- Identifying customers with/without purchases
-- Vendor and booth-level analysis
-- Product category & inventory insights
-- Grouping with MIN/MAX/AVG
-- Distinct counts
-- Price range analysis by category
+A comprehensive SQL project analyzing a Farmer’s Market relational database.  
+This repository demonstrates strong SQL fundamentals along with intermediate and advanced querying techniques such as joins, aggregations, grouping, filtering, and subqueries.
 
 ---
 
-## 🗂️ Database Tables Used
+##  Project Files
 
-The queries make use of multiple relational tables, including:
+### **1.farmers_data.sql**
+Includes 20 structured SQL questions covering:
 
-- customer
-- vendor
-- product
-- product_category
-- customer_purchases
-- vendor_inventory
-- vendor_booth_assignments
-- booth
-- market_date_info
-- zip_data
+- Basic data extraction using `SELECT`
+- String manipulation and concatenation
+- Conditional filtering and range queries
+- Aggregate calculations (`COUNT`, `SUM`)
+- Sorting and grouping operations
+- Subqueries for deeper analysis
+- Conditional logic using `CASE`
+- Date-based filtering
+- Table joins to enhance insights
 
----
+### **2. joins Questions (farmers_data).sql**
+Focused on JOIN-based analysis:
 
-## 🧠 Skills Demonstrated
-
-This project highlights core SQL skills:
-
-- Data cleaning & transformation
-- Joining multiple tables meaningfully
-- Aggregation & grouping techniques
-- Using aliases, conditions, and pattern matching
-- Writing analytical queries for real-world datasets
-- Identifying insights such as:
-  - Purchase trends
-  - Vendor performance
-  - Rain-day analysis
-  - Product pricing variations
+- LEFT JOIN, RIGHT JOIN, and multi-table joins
+- Identifying customers with or without purchases
+- Vendor and booth allocation analysis
+- Product category insights
+- Price range analysis by category (MIN/MAX/AVG)
+- Counting distinct product offerings
+- Vendor-level inventory and performance insights
 
 ---
 
-## 📊 Use Case
+##  Database Tables Used
 
-This SQL project is ideal for:
+Queries interact with multiple relational tables, including:
 
-- Data analytics learning
-- Portfolio building
+- `customer`
+- `vendor`
+- `product`
+- `product_category`
+- `customer_purchases`
+- `vendor_inventory`
+- `vendor_booth_assignments`
+- `booth`
+- `market_date_info`
+- `zip_data`
+
+---
+
+## Skills Demonstrated
+
+This project showcases key SQL competencies:
+
+- Data cleaning and transformation
+- Complex joins across multiple tables
+- Aggregation and grouping logic
+- Using aliases for cleaner query readability
+- Pattern matching with `LIKE`
+- Writing production-ready analytical SQL
+- Ability to extract insights such as:
+  - Customer purchasing patterns
+  - Vendor performance trends
+  - Sales behavior on rainy market days
+  - Product pricing variations across categories
+
+---
+
+## Use Cases
+
+This SQL project is valuable for:
+
+- Data analytics portfolio building
+- Academic assignments or coursework
+- SQL interview preparation
 - Understanding real-world database relationships
-- Practicing SQL interview questions
+- Practicing multi-table SQL analysis
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 - Import the provided SQL files into any SQL environment (MySQL recommended).
-- Ensure all tables from the farmers_market database are loaded.
-- Run each query individually to explore insights.
+- Ensure all required tables from the `farmers_market` database are available.
+- Execute the queries individually to explore the insights they generate.
+
+---
