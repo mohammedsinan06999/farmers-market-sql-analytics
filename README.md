@@ -69,7 +69,7 @@ market_date_info
 
 zip_data
 
- Skills Demonstrated
+🧠 Skills Demonstrated
 
 This project highlights core SQL skills:
 
@@ -93,7 +93,7 @@ Rain-day analysis
 
 Product pricing variations
 
- Use Case
+📊 Use Case
 
 This SQL project is ideal for:
 
@@ -109,6 +109,7 @@ Practicing SQL interview questions
 
 Import the provided SQL files into any SQL environment (MySQL recommended).
 
-Ensure all tables from farmers_market database are loaded.
+Ensure all tables from the farmers_market database are loaded.
 
 Run each query individually to explore insights.
+
